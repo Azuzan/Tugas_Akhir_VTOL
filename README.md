@@ -1,8 +1,8 @@
 Link aplikasi mission planner: https://ardupilot.org/planner/docs/mission-planner-installation.html
 
-1.	KONEKSI DENGAN PIXHAWK
+# 1.	KONEKSI DENGAN PIXHAWK
   
-     Koneksi dari computer ke Pixhawk bisa dengan USB dan Telemetri
+  Koneksi dari computer ke Pixhawk bisa dengan USB dan Telemetri
 
 ![image](https://github.com/user-attachments/assets/8c54c6a0-2508-4d7d-9be7-d96eee10ad31)
 
@@ -22,28 +22,28 @@ Pada Mission Planner, koneksi dan kecepatan data diatur pada bagian kanan atas l
 
 ![image](https://github.com/user-attachments/assets/94888e97-8c27-45e0-b2ca-82861c9526c3)
  
-2.	KALIBRASI
-3.	2.1	Accelerometer and Compass Calibration
+# 2.	KALIBRASI
+##  2.1	Accelerometer and Compass Calibration
 ![image](https://github.com/user-attachments/assets/882aeb2e-ac0c-4962-9bf4-1c136c70dddf)
 ![image](https://github.com/user-attachments/assets/75278ea8-4fcf-49fb-a020-365821a1c335)
 
    
   Buka "Initial Setup > Mandatory Hardware > Accel Calibration". Click Calibrate Accel to start the calibration. Arahkan hidung drone ke posisi LEVEL, LEFT, RIGHT, NOSEDOWN, NOSEUP, and BACK seperti perintah yang ada dibawahnya. "Calibration successful" akan tampil jika kalibrasi selesai. Untuk kalibrasi yang akurat, kendaraan atau perangkat harus diposisikan dalam enam orientasi berbeda:
   
-  •	LEVEL	    : Posisi normal, datar, seperti ketika keadaan stabil di tanah.
+  -	LEVEL	    : Posisi normal, datar, seperti ketika keadaan stabil di tanah.
   
-  •	LEFT	    : Miring ke kiri.
+  -	LEFT	    : Miring ke kiri.
   
-  •	RIGHT	    : Miring ke kanan.
+  -	RIGHT	    : Miring ke kanan.
   
-  •	NOSEDOWN	: Hidung kendaraan menghadap ke bawah.
+  -	NOSEDOWN	: Hidung kendaraan menghadap ke bawah.
   
-  •	NOSEUP	  : Hidung kendaraan menghadap ke atas.
+  -	NOSEUP	  : Hidung kendaraan menghadap ke atas.
   
-  •	BACK	    : hampir sama seperti level namun posisi drone dibalik.
+  -	BACK	    : hampir sama seperti level namun posisi drone dibalik.
   
   
-  2.2	Compass Calibration
+##  2.2	Compass Calibration
   
   Buka "Initial Setup > Mandatory Hardware > Compass".
   
@@ -61,7 +61,7 @@ Pada Mission Planner, koneksi dan kecepatan data diatur pada bagian kanan atas l
   ![image](https://github.com/user-attachments/assets/4f4af757-807e-451f-8c4a-98158998a8d0)
 
  
-3. Planning a Mission with Waypoints
+# 3. Planning a Mission with Waypoints
 
   Setelah terkoneksi klik kanan untuk set EKF Origin here untuk set posisi home.
 
