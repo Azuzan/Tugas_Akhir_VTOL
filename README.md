@@ -1,4 +1,5 @@
-Link aplikasi mission planner: https://ardupilot.org/planner/docs/mission-planner-installation.html
+# Pre_flight
+* Link aplikasi mission planner: https://ardupilot.org/planner/docs/mission-planner-installation.html
 
 # 1.	KONEKSI DENGAN PIXHAWK
   
